@@ -28,6 +28,8 @@ export default function IndexPto() {
         
         <div className='py-4'>
         <Link className="btn btn-primary mx-2" to={`/addPto/`}>Agregar Puntos</Link>
+        
+        
         <table className="table border shadow">
             <thead>
             <tr>

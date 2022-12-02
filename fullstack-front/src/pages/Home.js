@@ -1,6 +1,6 @@
-import React, {useEffect, useState} from 'react'
-import axios from 'axios'
-import {Link, useParams} from "react-router-dom"
+import React, {useEffect, useState} from 'react';
+import axios from 'axios';
+import {Link, useParams} from "react-router-dom";
 
 
 
@@ -21,17 +21,16 @@ export default function Home() {
         setSearchResults(result.data);
 
     };
-
+    
   
-
 
   return (
     
+    
     <div className='container'>
-        
-        <div className='py-4'>
-        
-        <input type="text" placeholder="Search for names.."></input>
+      <input type="text" name="search" id="search" placeholder="Search..." />
+      
+        <div className='py-4'>    
         <table className="table border shadow" >
             <thead>
             <tr>

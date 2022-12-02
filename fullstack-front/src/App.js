@@ -14,6 +14,7 @@ import IndexPublicacion from './publicacion/IndexPublicacion';
 import ViewPublicacion from './publicacion/ViewPublicacion';
 import EditPublicacion from './publicacion/EditPublicacion';
 import AddPublicacion from './publicacion/AddPublicacion';
+import Appv2 from './Appv2';
 
 function App() {
   return (
@@ -21,7 +22,6 @@ function App() {
       <Router>
       <Navbar/>
       <Routes>
-        <Route exact path='/' element={<Home/>}/>
         <Route exact path='/edituser/:id' element={<EditUser/>}/>
         <Route exact path="/viewuser/:id" element={<ViewUser />} />
         <Route exact path="/index" element={<IndexUser />} />
@@ -33,11 +33,12 @@ function App() {
         <Route exact path="/viewpublicaciones/:id" element={<ViewPublicacion />} />
         <Route exact path="/editpublicacion/:id" element={<EditPublicacion />} />
         <Route exact path="/addPublicacion" element={<AddPublicacion />} />
+        <Route exact path="/" element={<Appv2 />} />
+    
 
         
 
-        
-        
+      
 
       </Routes>
       

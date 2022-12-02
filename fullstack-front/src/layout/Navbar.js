@@ -16,11 +16,12 @@ export default function Navbar() {
                 aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-
-
+                <ul>
                 <Link className='btn btn-outline-light' to="/indexPto">Mantenedor Tipo Punto</Link>
                 <Link className='btn btn-outline-light' to="/indexPublicaciones">Mantenedor de Publicaciones</Link>
-                <Link className='btn btn-outline-light' to="/">ALL</Link>
+                <Link className='btn btn-outline-light' to="/">Publicaciones</Link>
+                </ul>
+                
             </div>
         </nav>
     </div>
